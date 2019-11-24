@@ -9,7 +9,7 @@
 		$base_uri = sprintf('%s://%s:%s/ifud/', 
 			'https', 
 			$_SERVER['SERVER_NAME'], 
-			$_SERVER['SERVER_PORT']);
+			'443');
 	?>
 
 	<base href="<?= $base_uri ?>">
