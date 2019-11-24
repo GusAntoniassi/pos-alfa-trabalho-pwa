@@ -7,7 +7,7 @@
 
 	<?php 
 		$base_uri = sprintf('%s://%s:%s/ifud/', 
-			$_SERVER['REQUEST_SCHEME'], 
+			'https://', 
 			$_SERVER['SERVER_NAME'], 
 			$_SERVER['SERVER_PORT']);
 	?>
