@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  php:
+    image: 'php:7.3-apache'
+    command: "/bin/bash -c 'a2enmod rewrite; apache2-foreground'"
+    ports:
+      - 8080:80
+    volumes:
+      - ./:/var/www/html
